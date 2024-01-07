@@ -171,6 +171,7 @@ try {
             <input type="submit" class="edit-profile-btn save-btn">
             <button class="edit-profile-btn cancel-btn">Cancel</button>
             </form>
+            
         </div>
     </div>
                     
