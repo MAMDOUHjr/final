@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .buttons-container {
+            text-align: center;
+        }
+        .registration-button {
+            position: relative;
+            display: inline-block;
+            padding: 20px 40px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            border: 2px solid #3498db;
+            color: #3498db; 
+            border-radius: 8px;
+            background-color: #fff;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            cursor: pointer;
+            margin: 10px;
+            overflow: hidden;
+        }
+
+        .registration-button:hover {
+            background-color: #3498db; 
+            color: #fff; 
+        }
+
+        .fa-icon {
+            margin-right: 10px;
+        }
+
+        .confirmation-message {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #3498db;
+            font-weight: bold;
+        }
+        
+    </style>
+    <title>Registration Buttons</title>
+</head>
+<body>
+    <div class="buttons-container">
+        <a href="./signup.php" class="registration-button">
+            <i class="fas fa-user-plus fa-icon"></i>
+            Student Registration
+        </a>
+        <a href="./instructorSign.htm" class="registration-button">
+            <i class="fas fa-sign-in-alt fa-icon"></i>
+            Instructor Registration
+        </a>
+        <p class="confirmation-message">
+            Note: If you are registering as an instructor, your data will be reviewed, and the result will be sent to you.
+        </p>
+    </div>
+</body>
+</html>

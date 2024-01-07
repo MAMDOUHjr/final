@@ -1,0 +1,52 @@
+
+
+
+.h {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #333;
+    transition: 0.3s;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+dl {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+dt, dd {
+    color: #333;
+    transition: 0.3s;
+}
+
+dt:hover {
+    color: #e44d26;
+    cursor: pointer;    
+}
+a{
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+
+}
+a:hover{
+    color: #e44d26;
+}
+.h {
+    position: relative;
+    text-align: center;
+}
